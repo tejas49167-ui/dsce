@@ -1,0 +1,240 @@
+2026-02-18 08:44:35,186 | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-18 08:44:35,187 | [33mPress CTRL+C to quit[0m
+2026-02-18 08:45:25,717 | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-18 08:45:25,717 | [33mPress CTRL+C to quit[0m
+2026-02-18 09:04:35,155 | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-18 09:04:35,155 | [33mPress CTRL+C to quit[0m
+2026-02-18 09:08:38,083 | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-18 09:08:38,083 | [33mPress CTRL+C to quit[0m
+2026-02-18 09:08:38,097 |  * Restarting with watchdog (inotify)
+2026-02-18 09:08:38,386 |  * Debugger is active!
+2026-02-18 09:08:38,397 |  * Debugger PIN: 327-983-617
+2026-02-18 09:12:47,468 |  * Detected change in '/home/tejas/ML/demo/app.py', reloading
+2026-02-18 09:12:47,469 |  * Detected change in '/home/tejas/ML/demo/app.py', reloading
+2026-02-18 09:12:47,473 |  * Detected change in '/home/tejas/ML/demo/app.py', reloading
+2026-02-18 09:12:47,691 |  * Detected change in '/home/tejas/ML/demo/app.py', reloading
+2026-02-18 09:12:47,695 |  * Detected change in '/home/tejas/ML/demo/app.py', reloading
+2026-02-18 09:12:48,184 |  * Restarting with watchdog (inotify)
+2026-02-18 09:12:48,483 |  * Debugger is active!
+2026-02-18 09:12:48,488 |  * Debugger PIN: 327-983-617
+2026-02-18 09:13:18,947 | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2026-02-18 09:13:18,947 | [33mPress CTRL+C to quit[0m
+2026-02-18 09:13:18,956 |  * Restarting with watchdog (inotify)
+2026-02-18 09:13:19,247 |  * Debugger is active!
+2026-02-18 09:13:19,252 |  * Debugger PIN: 327-983-617
+2026-02-18 09:13:25,637 | 127.0.0.1 GET / 200
+2026-02-18 09:13:25,657 | 127.0.0.1 - - [18/Feb/2026 09:13:25] "GET / HTTP/1.1" 200 -
+2026-02-18 09:13:25,723 | 127.0.0.1 - - [18/Feb/2026 09:13:25] "GET /static/style.css HTTP/1.1" 200 -
+2026-02-18 09:13:26,091 | 127.0.0.1 - - [18/Feb/2026 09:13:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-02-18 09:13:30,494 | 127.0.0.1 GET /login 200
+2026-02-18 09:13:30,499 | 127.0.0.1 - - [18/Feb/2026 09:13:30] "GET /login HTTP/1.1" 200 -
+2026-02-18 09:13:30,567 | 127.0.0.1 - - [18/Feb/2026 09:13:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-02-18 09:15:34,713 |  * Detected change in '/home/tejas/ML/demo/app.py', reloading
+2026-02-18 09:15:34,714 |  * Detected change in '/home/tejas/ML/demo/app.py', reloading
+2026-02-18 09:15:34,717 |  * Detected change in '/home/tejas/ML/demo/app.py', reloading
+2026-02-18 09:15:35,745 |  * Restarting with watchdog (inotify)
+2026-02-18 09:15:36,049 |  * Debugger is active!
+2026-02-18 09:15:36,054 |  * Debugger PIN: 327-983-617
+2026-02-18 09:15:40,300 | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-18 09:15:40,300 | [33mPress CTRL+C to quit[0m
+2026-02-18 09:15:40,310 |  * Restarting with watchdog (inotify)
+2026-02-18 09:15:40,610 |  * Debugger is active!
+2026-02-18 09:15:40,615 |  * Debugger PIN: 327-983-617
+2026-02-18 09:15:51,544 | 127.0.0.1 GET / 200
+2026-02-18 09:15:51,553 | 127.0.0.1 - - [18/Feb/2026 09:15:51] "GET / HTTP/1.1" 200 -
+2026-02-18 09:15:51,665 | 127.0.0.1 - - [18/Feb/2026 09:15:51] "GET /static/style.css HTTP/1.1" 200 -
+2026-02-18 09:15:52,277 | 127.0.0.1 - - [18/Feb/2026 09:15:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-02-18 09:16:07,091 |  * Detected change in '/home/tejas/ML/demo/app.py', reloading
+2026-02-18 09:16:07,094 |  * Detected change in '/home/tejas/ML/demo/app.py', reloading
+2026-02-18 09:16:07,296 |  * Detected change in '/home/tejas/ML/demo/app.py', reloading
+2026-02-18 09:16:07,300 |  * Detected change in '/home/tejas/ML/demo/app.py', reloading
+2026-02-18 09:16:07,465 |  * Detected change in '/home/tejas/ML/demo/app.py', reloading
+2026-02-18 09:16:07,467 |  * Detected change in '/home/tejas/ML/demo/app.py', reloading
+2026-02-18 09:16:07,469 |  * Detected change in '/home/tejas/ML/demo/app.py', reloading
+2026-02-18 09:16:08,216 |  * Restarting with watchdog (inotify)
+2026-02-18 09:16:08,561 |  * Debugger is active!
+2026-02-18 09:16:08,568 |  * Debugger PIN: 327-983-617
+2026-02-18 09:16:13,158 | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-18 09:16:13,158 | [33mPress CTRL+C to quit[0m
+2026-02-18 09:16:13,168 |  * Restarting with watchdog (inotify)
+2026-02-18 09:16:13,457 |  * Debugger is active!
+2026-02-18 09:16:13,464 |  * Debugger PIN: 327-983-617
+2026-02-18 09:17:40,124 |  * Detected change in '/home/tejas/ML/demo/app.py', reloading
+2026-02-18 09:17:40,127 |  * Detected change in '/home/tejas/ML/demo/app.py', reloading
+2026-02-18 09:17:40,344 |  * Detected change in '/home/tejas/ML/demo/app.py', reloading
+2026-02-18 09:17:40,348 |  * Detected change in '/home/tejas/ML/demo/app.py', reloading
+2026-02-18 09:17:40,476 |  * Detected change in '/home/tejas/ML/demo/app.py', reloading
+2026-02-18 09:17:40,477 |  * Detected change in '/home/tejas/ML/demo/app.py', reloading
+2026-02-18 09:17:40,482 |  * Detected change in '/home/tejas/ML/demo/app.py', reloading
+2026-02-18 09:17:40,891 |  * Restarting with watchdog (inotify)
+2026-02-18 09:17:41,252 |  * Debugger is active!
+2026-02-18 09:17:41,257 |  * Debugger PIN: 327-983-617
+2026-02-18 09:17:44,985 | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2026-02-18 09:17:44,985 | [33mPress CTRL+C to quit[0m
+2026-02-18 09:17:44,994 |  * Restarting with watchdog (inotify)
+2026-02-18 09:17:45,293 |  * Debugger is active!
+2026-02-18 09:17:45,298 |  * Debugger PIN: 327-983-617
+2026-02-18 09:17:59,660 | 127.0.0.1 GET / 200
+2026-02-18 09:17:59,674 | 127.0.0.1 - - [18/Feb/2026 09:17:59] "GET / HTTP/1.1" 200 -
+2026-02-18 09:17:59,739 | 127.0.0.1 - - [18/Feb/2026 09:17:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-02-18 09:18:01,539 | 127.0.0.1 GET /login 200
+2026-02-18 09:18:01,544 | 127.0.0.1 - - [18/Feb/2026 09:18:01] "GET /login HTTP/1.1" 200 -
+2026-02-18 09:18:01,599 | 127.0.0.1 - - [18/Feb/2026 09:18:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-02-18 09:18:07,000 | 127.0.0.1 POST /login 401
+2026-02-18 09:18:07,001 | 127.0.0.1 - - [18/Feb/2026 09:18:07] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2026-02-18 09:18:07,063 | 127.0.0.1 - - [18/Feb/2026 09:18:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-02-18 09:19:09,179 | 127.0.0.1 POST /login 200
+2026-02-18 09:19:09,179 | 127.0.0.1 - - [18/Feb/2026 09:19:09] "POST /login HTTP/1.1" 200 -
+2026-02-18 09:22:21,753 | 127.0.0.1 GET / 200
+2026-02-18 09:22:21,755 | 127.0.0.1 - - [18/Feb/2026 09:22:21] "GET / HTTP/1.1" 200 -
+2026-02-18 09:22:21,832 | 127.0.0.1 - - [18/Feb/2026 09:22:21] "GET /static/style.css HTTP/1.1" 200 -
+2026-02-18 09:22:21,855 | 127.0.0.1 - - [18/Feb/2026 09:22:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-02-18 09:22:25,924 | 127.0.0.1 GET /search?q=test 200
+2026-02-18 09:22:25,925 | 127.0.0.1 - - [18/Feb/2026 09:22:25] "GET /search?q=test HTTP/1.1" 200 -
+2026-02-18 09:22:32,771 | 127.0.0.1 GET /login 200
+2026-02-18 09:22:32,776 | 127.0.0.1 - - [18/Feb/2026 09:22:32] "GET /login HTTP/1.1" 200 -
+2026-02-18 09:22:32,842 | 127.0.0.1 - - [18/Feb/2026 09:22:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-02-18 09:22:41,308 | 127.0.0.1 POST /login 401
+2026-02-18 09:22:41,310 | 127.0.0.1 - - [18/Feb/2026 09:22:41] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2026-02-18 09:22:41,444 | 127.0.0.1 - - [18/Feb/2026 09:22:41] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-02-18 09:23:16,268 | 127.0.0.1 POST /login 401
+2026-02-18 09:23:16,269 | 127.0.0.1 - - [18/Feb/2026 09:23:16] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2026-02-18 09:23:16,315 | 127.0.0.1 - - [18/Feb/2026 09:23:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-02-18 09:23:19,800 | 127.0.0.1 POST /login 401
+2026-02-18 09:23:19,801 | 127.0.0.1 - - [18/Feb/2026 09:23:19] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2026-02-18 09:23:19,857 | 127.0.0.1 - - [18/Feb/2026 09:23:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-02-18 09:23:44,912 | 127.0.0.1 POST /login 200
+2026-02-18 09:23:44,913 | 127.0.0.1 - - [18/Feb/2026 09:23:44] "POST /login HTTP/1.1" 200 -
+2026-02-18 09:23:48,505 | 127.0.0.1 GET /login 200
+2026-02-18 09:23:48,506 | 127.0.0.1 - - [18/Feb/2026 09:23:48] "GET /login HTTP/1.1" 200 -
+2026-02-18 09:23:55,585 | 127.0.0.1 POST /login 200
+2026-02-18 09:23:55,585 | 127.0.0.1 - - [18/Feb/2026 09:23:55] "POST /login HTTP/1.1" 200 -
+2026-02-18 09:24:52,697 | 127.0.0.1 GET /login 200
+2026-02-18 09:24:52,698 | 127.0.0.1 - - [18/Feb/2026 09:24:52] "GET /login HTTP/1.1" 200 -
+2026-02-18 09:28:21,280 | 127.0.0.1 GET /search?q=test 200
+2026-02-18 09:28:21,281 | 127.0.0.1 - - [18/Feb/2026 09:28:21] "GET /search?q=test HTTP/1.1" 200 -
+2026-02-18 09:50:45,373 | 127.0.0.1 - - [18/Feb/2026 09:50:45] "GET /static/style.css HTTP/1.1" 200 -
+2026-02-18 09:50:45,498 | 127.0.0.1 - - [18/Feb/2026 09:50:45] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-02-18 09:50:51,845 | 127.0.0.1 GET / 200
+2026-02-18 09:50:51,845 | 127.0.0.1 - - [18/Feb/2026 09:50:51] "GET / HTTP/1.1" 200 -
+2026-02-18 09:50:51,959 | 127.0.0.1 - - [18/Feb/2026 09:50:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-02-18 09:50:52,019 | 127.0.0.1 - - [18/Feb/2026 09:50:52] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-02-18 09:51:04,069 | 127.0.0.1 GET /login 200
+2026-02-18 09:51:04,070 | 127.0.0.1 - - [18/Feb/2026 09:51:04] "GET /login HTTP/1.1" 200 -
+2026-02-18 09:51:04,179 | 127.0.0.1 - - [18/Feb/2026 09:51:04] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-02-18 09:51:04,201 | 127.0.0.1 - - [18/Feb/2026 09:51:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-02-18 09:51:19,502 | 127.0.0.1 POST /login 401
+2026-02-18 09:51:19,507 | 127.0.0.1 - - [18/Feb/2026 09:51:19] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2026-02-18 09:51:19,618 | 127.0.0.1 - - [18/Feb/2026 09:51:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-02-18 09:51:19,620 | 127.0.0.1 - - [18/Feb/2026 09:51:19] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-02-18 09:51:28,663 | 127.0.0.1 POST /login 401
+2026-02-18 09:51:28,664 | 127.0.0.1 - - [18/Feb/2026 09:51:28] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2026-02-18 09:51:28,791 | 127.0.0.1 - - [18/Feb/2026 09:51:28] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-02-18 09:51:28,842 | 127.0.0.1 - - [18/Feb/2026 09:51:28] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-02-18 09:51:36,141 | 127.0.0.1 POST /login 401
+2026-02-18 09:51:36,143 | 127.0.0.1 - - [18/Feb/2026 09:51:36] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2026-02-18 09:51:36,246 | 127.0.0.1 - - [18/Feb/2026 09:51:36] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-02-18 09:51:36,278 | 127.0.0.1 - - [18/Feb/2026 09:51:36] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-02-18 09:51:48,391 | 127.0.0.1 POST /login 200
+2026-02-18 09:51:48,392 | 127.0.0.1 - - [18/Feb/2026 09:51:48] "POST /login HTTP/1.1" 200 -
+2026-02-18 09:51:48,555 | 127.0.0.1 - - [18/Feb/2026 09:51:48] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-02-18 10:05:53,961 | 127.0.0.1 GET / 200
+2026-02-18 10:05:53,962 | 127.0.0.1 - - [18/Feb/2026 10:05:53] "GET / HTTP/1.1" 200 -
+2026-02-18 10:05:54,029 | 127.0.0.1 - - [18/Feb/2026 10:05:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-02-18 10:06:20,353 |  * Detected change in '/home/tejas/ML/demo/app.py', reloading
+2026-02-18 10:06:20,356 |  * Detected change in '/home/tejas/ML/demo/app.py', reloading
+2026-02-18 10:06:20,358 |  * Detected change in '/home/tejas/ML/demo/app.py', reloading
+2026-02-18 10:06:20,809 |  * Restarting with watchdog (inotify)
+2026-02-18 10:06:21,194 |  * Debugger is active!
+2026-02-18 10:06:21,200 |  * Debugger PIN: 327-983-617
+2026-02-18 10:06:27,169 | 127.0.0.1 GET / 200
+2026-02-18 10:06:27,177 | 127.0.0.1 - - [18/Feb/2026 10:06:27] "GET / HTTP/1.1" 200 -
+2026-02-18 10:06:27,238 | 127.0.0.1 - - [18/Feb/2026 10:06:27] "GET /static/style.css HTTP/1.1" 200 -
+2026-02-18 10:06:29,000 | 127.0.0.1 GET /login 200
+2026-02-18 10:06:29,005 | 127.0.0.1 - - [18/Feb/2026 10:06:29] "GET /login HTTP/1.1" 200 -
+2026-02-18 10:06:29,067 | 127.0.0.1 - - [18/Feb/2026 10:06:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-02-18 10:06:39,843 | 127.0.0.1 POST /login 401
+2026-02-18 10:06:39,847 | 127.0.0.1 - - [18/Feb/2026 10:06:39] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2026-02-18 10:06:39,920 | 127.0.0.1 - - [18/Feb/2026 10:06:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-02-18 10:06:56,580 | 127.0.0.1 POST /login 200
+2026-02-18 10:06:56,581 | 127.0.0.1 - - [18/Feb/2026 10:06:56] "POST /login HTTP/1.1" 200 -
+2026-02-18 13:26:32,212 | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2026-02-18 13:26:32,213 | [33mPress CTRL+C to quit[0m
+2026-02-18 13:26:32,223 |  * Restarting with watchdog (inotify)
+2026-02-18 13:26:32,520 |  * Debugger is active!
+2026-02-18 13:26:32,529 |  * Debugger PIN: 327-983-617
+2026-02-18 13:26:37,836 | 127.0.0.1 GET /login 200
+2026-02-18 13:26:37,855 | 127.0.0.1 - - [18/Feb/2026 13:26:37] "GET /login HTTP/1.1" 200 -
+2026-02-18 13:26:37,955 | 127.0.0.1 - - [18/Feb/2026 13:26:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-02-18 13:26:38,307 | 127.0.0.1 - - [18/Feb/2026 13:26:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-02-18 13:26:52,192 | 127.0.0.1 POST /login 401
+2026-02-18 13:26:52,193 | 127.0.0.1 - - [18/Feb/2026 13:26:52] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2026-02-18 13:26:52,247 | 127.0.0.1 - - [18/Feb/2026 13:26:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-02-18 13:28:13,233 | 127.0.0.1 POST /login 401
+2026-02-18 13:28:13,234 | 127.0.0.1 - - [18/Feb/2026 13:28:13] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2026-02-18 13:28:13,306 | 127.0.0.1 - - [18/Feb/2026 13:28:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-02-18 13:28:26,614 | 127.0.0.1 POST /login 401
+2026-02-18 13:28:26,615 | 127.0.0.1 - - [18/Feb/2026 13:28:26] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2026-02-18 13:28:26,665 | 127.0.0.1 - - [18/Feb/2026 13:28:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-02-18 13:28:32,053 | 127.0.0.1 POST /login 401
+2026-02-18 13:28:32,054 | 127.0.0.1 - - [18/Feb/2026 13:28:32] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2026-02-18 13:28:32,110 | 127.0.0.1 - - [18/Feb/2026 13:28:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-02-18 13:29:31,748 | 127.0.0.1 POST /login 200
+2026-02-18 13:29:31,749 | 127.0.0.1 - - [18/Feb/2026 13:29:31] "POST /login HTTP/1.1" 200 -
+2026-02-18 13:47:04,578 |  * Detected change in '/home/tejas/ML/demo/app.py', reloading
+2026-02-18 13:47:04,579 |  * Detected change in '/home/tejas/ML/demo/app.py', reloading
+2026-02-18 13:47:04,582 |  * Detected change in '/home/tejas/ML/demo/app.py', reloading
+2026-02-18 13:47:05,730 |  * Restarting with watchdog (inotify)
+2026-02-18 13:47:06,079 |  * Debugger is active!
+2026-02-18 13:47:06,086 |  * Debugger PIN: 327-983-617
+2026-02-18 14:44:37,255 | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2026-02-18 14:44:37,256 | [33mPress CTRL+C to quit[0m
+2026-02-18 14:44:37,289 |  * Restarting with watchdog (inotify)
+2026-02-18 14:44:38,190 |  * Debugger is active!
+2026-02-18 14:44:38,216 |  * Debugger PIN: 327-983-617
+2026-02-18 14:45:53,123 | 127.0.0.1 GET / 200
+2026-02-18 14:45:53,139 | 127.0.0.1 - - [18/Feb/2026 14:45:53] "GET / HTTP/1.1" 200 -
+2026-02-18 14:45:53,395 | 127.0.0.1 - - [18/Feb/2026 14:45:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-02-18 14:45:54,205 | 127.0.0.1 - - [18/Feb/2026 14:45:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-02-18 14:45:58,085 | 127.0.0.1 GET /login 200
+2026-02-18 14:45:58,099 | 127.0.0.1 - - [18/Feb/2026 14:45:58] "GET /login HTTP/1.1" 200 -
+2026-02-18 14:45:58,238 | 127.0.0.1 - - [18/Feb/2026 14:45:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-02-18 14:46:24,640 | 127.0.0.1,POST,/login,401
+2026-02-18 14:46:24,641 | 127.0.0.1 - - [18/Feb/2026 14:46:24] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2026-02-18 14:46:24,808 | 127.0.0.1 - - [18/Feb/2026 14:46:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-02-18 14:47:29,817 | 127.0.0.1,POST,/login,401
+2026-02-18 14:47:29,819 | 127.0.0.1 - - [18/Feb/2026 14:47:29] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2026-02-18 14:47:29,993 | 127.0.0.1 - - [18/Feb/2026 14:47:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-02-18 14:48:46,510 | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2026-02-18 14:48:46,511 | [33mPress CTRL+C to quit[0m
+2026-02-18 14:48:46,527 |  * Restarting with watchdog (inotify)
+2026-02-18 14:48:47,165 |  * Debugger is active!
+2026-02-18 14:48:47,173 |  * Debugger PIN: 327-983-617
+2026-02-18 14:49:09,658 | 127.0.0.1,POST,/login,401
+2026-02-18 14:49:09,673 | 127.0.0.1 - - [18/Feb/2026 14:49:09] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2026-02-18 14:49:09,911 | 127.0.0.1 - - [18/Feb/2026 14:49:09] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-02-18 14:49:30,661 | 127.0.0.1,POST,/login,401
+2026-02-18 14:49:30,662 | 127.0.0.1 - - [18/Feb/2026 14:49:30] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2026-02-18 14:49:30,908 | 127.0.0.1 - - [18/Feb/2026 14:49:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-02-18 14:50:18,258 | 127.0.0.1,POST,/login 200
+2026-02-18 14:50:18,258 | 127.0.0.1 - - [18/Feb/2026 14:50:18] "POST /login HTTP/1.1" 200 -
+2026-02-18 15:00:08,159 | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2026-02-18 15:00:08,159 | [33mPress CTRL+C to quit[0m
+2026-02-18 15:00:08,183 |  * Restarting with watchdog (inotify)
+2026-02-18 15:00:08,637 |  * Debugger is active!
+2026-02-18 15:00:08,640 |  * Debugger PIN: 327-983-617
+2026-02-18 15:00:14,910 | 127.0.0.1,POST,/login,401
+2026-02-18 15:00:14,919 | 127.0.0.1 - - [18/Feb/2026 15:00:14] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2026-02-18 15:00:14,988 | 127.0.0.1 - - [18/Feb/2026 15:00:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
