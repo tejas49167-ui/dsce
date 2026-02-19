@@ -4,4 +4,4 @@ This application is a prototype of an extendable framework for log analysis and 
 
 
 Architecture : 
-Raw Logs → Parsing → Feature Extraction → ML Model → Classification → Risk Scoring → Reporting
+Raw Logs -> Parsing -> Feature Extraction -> ML Model -> Classification -> Risk Scoring -> Reporting
