@@ -1,15 +1,15 @@
 import subprocess
 
-print("Step 1: Parsing logs...")
+print("->Parsing logs")
 subprocess.run(["python3", "src/parse.py"])
 
-print("Step 2: Generating features...")
+print("->Generating features")
 subprocess.run(["python3", "src/feature.py"])
 
-print("Step 3: Running anomaly detection...")
+print("->Running anomaly detection")
 subprocess.run(["python3", "src/model.py"])
 
-print("Step 4: Generating threat report...")
+print("->Generating threat report")
 subprocess.run(["python3", "src/report.py"])
 
 print("\nPipeline execution complete.")

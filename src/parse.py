@@ -1,7 +1,7 @@
 import pandas as pd
 
-log_file = "../data/raw/access.log"
-output_file = "../data/processed/logs.csv"
+log_file = "data/raw/access.log"
+output_file = "data/processed/logs.csv"
 
 
 columns = ["timestamp", "ip", "method", "path", "status"]

@@ -1,2 +1,2 @@
-ip,total_requests,failed_requests,failed_ratio
-127.0.0.1,5,4,0.8
+ip,total_requests,failed_requests,failed_ratio,request_rate
+127.0.0.1,150,150,1.0,151821862.34817815

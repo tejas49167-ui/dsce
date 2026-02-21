@@ -1,0 +1,12 @@
+
+----------------------------------------
+Threat Detected
+IP Address      : 127.0.0.1
+Attack Type     : Brute Force Attack
+Total Requests  : 150
+Failed Requests : 150
+Failure Ratio   : 1.0
+Request Rate    : 151821862.35
+Risk Score      : 100/100
+Severity Level  : HIGH
+----------------------------------------
