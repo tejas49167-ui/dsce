@@ -79,16 +79,8 @@ Generate the demo pcap again if needed:
 python3 scripts/generate_demo_pcap.py
 ```
 
-## Real-World Direction
-
-This is a strong prototype path for a SIEM-style detector, especially if you want to evolve beyond app logs. In a more production-shaped version, the next good steps would be:
-
-- collect mirrored traffic or load-balancer HTTP logs instead of local-only samples
-- enrich events with hostnames, user agents, destination services, and request volumes by time window
-- add streaming ingestion instead of batch-only CSV writes
-- separate rule-based detections from anomaly-based detections for clearer explainability
-- add TLS-termination or reverse-proxy logs so encrypted traffic still exposes request metadata
-
+##NOTE
+This is student project , which made to try to make pipeline and see how it works --Tejas Gowda S 
 ## Current Note
 
 Packet parsing works best for HTTP traffic that is visible to `tshark`. If your environment is HTTPS-only and you do not capture traffic after TLS termination, packet captures will not expose the full request URI or payload.
