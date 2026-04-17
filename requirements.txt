@@ -1,0 +1,4 @@
+Flask>=3.0
+pandas>=2.2
+scapy>=2.5
+scikit-learn>=1.4

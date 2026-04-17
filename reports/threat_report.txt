@@ -1,12 +1,41 @@
-#DEMO 
-------------------------------------
+
+----------------------------------------
 Threat Detected
-IP Address      : 127.0.0.1
-Attack Type     : Brute Force Attack
-Total Requests  : 150
-Failed Requests : 150
-Failure Ratio   : 1.0
-Request Rate    : 151821862.35
+IP Address      : 103.77.192.8
+Sources         : app_log
+Attack Type     : Reconnaissance Activity
+Total Requests  : 16
+Failed Requests : 0
+Error Requests  : 16
+Distinct Paths  : 16
+Distinct Hosts  : 0
+SQLi Signals    : 0
+Recon Signals   : 15
+Failure Ratio   : 0.0
+Error Ratio     : 1.0
+Request Rate    : 2.58
+User Agents     : N/A
 Risk Score      : 100/100
+Severity Level  : HIGH
+----------------------------------------
+
+
+----------------------------------------
+Threat Detected
+IP Address      : 185.231.154.21
+Sources         : app_log
+Attack Type     : SQL Injection Attempt
+Total Requests  : 8
+Failed Requests : 0
+Error Requests  : 7
+Distinct Paths  : 7
+Distinct Hosts  : 0
+SQLi Signals    : 6
+Recon Signals   : 1
+Failure Ratio   : 0.0
+Error Ratio     : 0.88
+Request Rate    : 0.44
+User Agents     : N/A
+Risk Score      : 96/100
 Severity Level  : HIGH
 ----------------------------------------

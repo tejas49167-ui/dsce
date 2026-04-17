@@ -1,0 +1,12 @@
+timestamp,ip,method,path,status,source,destination_ip,host,user_agent
+"2024-04-17 09:15:00,102",10.0.14.23,GET,/,200,pcap,192.168.56.10,shop.internal,Mozilla/5.0
+"2024-04-17 09:15:02,503",10.0.14.23,GET,/search?q=ergonomic+keyboard,200,pcap,192.168.56.10,shop.internal,Mozilla/5.0
+"2024-04-17 09:15:04,203",185.231.154.21,GET,/search?q=',500,pcap,192.168.56.10,shop.internal,sqlmap/1.8.3
+"2024-04-17 09:15:04,903",185.231.154.21,GET,"/product?id=1%20UNION%20SELECT%20username,password%20FROM%20users--",500,pcap,192.168.56.10,shop.internal,sqlmap/1.8.3
+"2024-04-17 09:15:05,602",185.231.154.21,GET,/search?q=%27%20AND%20SLEEP(5)%20--,500,pcap,192.168.56.10,shop.internal,sqlmap/1.8.3
+"2024-04-17 09:15:08,302",103.77.192.8,GET,/robots.txt,404,pcap,192.168.56.10,shop.internal,Nmap Scripting Engine
+"2024-04-17 09:15:08,703",103.77.192.8,GET,/.env,404,pcap,192.168.56.10,shop.internal,Nmap Scripting Engine
+"2024-04-17 09:15:09,102",103.77.192.8,GET,/phpmyadmin,404,pcap,192.168.56.10,shop.internal,Nmap Scripting Engine
+"2024-04-17 09:15:09,503",103.77.192.8,GET,/.git/config,404,pcap,192.168.56.10,shop.internal,Nmap Scripting Engine
+"2024-04-17 09:15:09,903",103.77.192.8,GET,/server-status,403,pcap,192.168.56.10,shop.internal,Nmap Scripting Engine
+"2024-04-17 09:15:10,703",172.16.10.44,GET,/checkout,200,pcap,192.168.56.10,shop.internal,Mozilla/5.0

@@ -17,10 +17,15 @@ file_handler.setFormatter(formatter)
 logger.addHandler(file_handler)
 
 
+def log_request(status_code):
+    path = request.full_path.rstrip("?")
+    logger.info(f"{request.remote_addr},{request.method},{path},{status_code}")
+
+
 
 @app.route("/")
 def home():
-    logger.info(f"{request.remote_addr},GET,/,200")
+    log_request(200)
     return render_template("index.html")
 
 
@@ -31,20 +36,20 @@ def login():
         password = request.form.get("password")
 
         if password != "admin123":
-            logger.info(f"{request.remote_addr},POST,/login,401")
+            log_request(401)
             return render_template("login.html", error="Invalid credentials"), 401
 
-        logger.info(f"{request.remote_addr},POST,/login,200")
+        log_request(200)
         return "<h3>Login Successful</h3>"
 
-    logger.info(f"{request.remote_addr},GET,/login,200")
+    log_request(200)
     return render_template("login.html")
 
 
 @app.route("/search")
 def search():
     query = request.args.get("q", "")
-    logger.info(f"{request.remote_addr},GET,/search,200")
+    log_request(200)
     return f"<h3>Search Result for: {query}</h3>"
 
 

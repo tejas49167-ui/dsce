@@ -1,15 +1,62 @@
+import argparse
 import subprocess
 
-print("->Parsing logs")
-subprocess.run(["python3", "src/parse.py"])
 
-print("->Generating features")
-subprocess.run(["python3", "src/feature.py"])
+def parse_args():
+    parser = argparse.ArgumentParser(
+        description="Run the threat-analysis pipeline over application logs, tshark CSV exports, or packet captures."
+    )
+    parser.add_argument(
+        "--input",
+        default="data/raw/access.log",
+        help="Raw source file to ingest. Supports app logs, tshark CSV exports, and pcap/pcapng files.",
+    )
+    parser.add_argument(
+        "--format",
+        choices=["auto", "app_log", "tshark_csv", "pcap"],
+        default="auto",
+        help="Source format. Defaults to auto-detection.",
+    )
+    return parser.parse_args()
 
-print("->Running anomaly detection")
-subprocess.run(["python3", "src/model.py"])
 
-print("->Generating threat report")
-subprocess.run(["python3", "src/report.py"])
+def run_step(message: str, command: list[str]):
+    print(message)
+    subprocess.run(command, check=True)
 
-print("\nPipeline execution complete.")
+
+def main():
+    args = parse_args()
+
+    run_step(
+        "->Parsing and normalizing events",
+        [
+            "python3",
+            "src/parse.py",
+            "--input",
+            args.input,
+            "--format",
+            args.format,
+        ],
+    )
+
+    run_step(
+        "->Generating features",
+        ["python3", "src/feature.py"],
+    )
+
+    run_step(
+        "->Running anomaly detection",
+        ["python3", "src/model.py"],
+    )
+
+    run_step(
+        "->Generating threat report",
+        ["python3", "src/report.py"],
+    )
+
+    print("\nPipeline execution complete.")
+
+
+if __name__ == "__main__":
+    main()

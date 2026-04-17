@@ -1,10 +1,21 @@
 def calculate_risk(row):
-    
     ratio_score = row["failed_ratio"] * 50
-    volume_score = min(row["total_requests"], 50)  
+    volume_score = min(row["total_requests"], 50)
     rate_score = min(row["request_rate"] * 20, 50)
+    sqli_score = min(row.get("sqli_attempts", 0) * 25, 40)
+    recon_score = min(row.get("recon_attempts", 0) * 12, 30)
+    diversity_score = min(row.get("distinct_paths", 0) * 2, 20)
+    error_score = row.get("error_ratio", 0) * 20
 
-    risk_score = ratio_score + (volume_score * 0.5) + rate_score
+    risk_score = (
+        ratio_score
+        + (volume_score * 0.5)
+        + rate_score
+        + sqli_score
+        + recon_score
+        + diversity_score
+        + error_score
+    )
 
     risk_score = min(int(risk_score), 100)
 

@@ -1,0 +1,5 @@
+ip,sources,total_requests,failed_requests,error_requests,distinct_paths,distinct_hosts,sqli_attempts,recon_attempts,failed_ratio,error_ratio,path_diversity,request_rate,sample_user_agents,anomaly
+10.0.14.23,app_log,12,1,1,10,0,0,0,0.0833333333333333,0.0833333333333333,0.8333333333333334,0.0907043190373248,,1
+103.77.192.8,app_log,16,0,16,16,0,0,15,0.0,1.0,1.0,2.5756600128783003,,-1
+172.16.10.44,app_log,7,0,0,7,0,0,0,0.0,0.0,1.0,0.0847067934848374,,1
+185.231.154.21,app_log,8,0,7,7,0,6,1,0.0,0.875,0.875,0.4383801852156282,,1
